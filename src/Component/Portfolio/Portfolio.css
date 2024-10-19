@@ -1,0 +1,160 @@
+.portfolio {
+    padding: 40px 70px;
+    color: #29353C;
+    background-image: url("/src/assets/image/background1.png");
+    background-size: cover;
+}
+.portfolio h1{
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.portfolio h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.portfolio .portfolioNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+.portfolio .portfolioNav h3{
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.portfolio .portfolioNav button{
+    padding: 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.portfolio .projects{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.portfolio .projects .project{
+    width: 500px;
+    height: 250px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.portfolio .projects .bgColor{
+    width: 100%;
+    height: 100%;
+    padding: 45px;
+    border-radius: 12px;
+    background-color: #29353C;
+    opacity: 0;
+}
+
+.portfolio .projects .bgColor h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #E6E6E6;
+}
+
+.portfolio .projects .bgColor button{
+    margin: 15px;
+    padding: 15px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    color: #E6E6E6;
+    font-weight: 700;
+    border: 2px solid #E6E6E6;
+    background: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.portfolio .projects .bgColor:hover {
+    opacity: 85%;
+}
+
+.portfolio .projects .bgColor button:hover{
+    opacity: 100%;
+    background-color: #E6E6E6;
+    color: #29353C;
+}
+
+.portfolio .projects .pro-1{
+    background-image: url("/src/assets/image/project-1.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio .projects .pro-2{
+    background-image: url("/src/assets/image/project-2.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio .projects .pro-3{
+    background-image: url("/src/assets/image/project-3.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio .projects .pro-4{
+    background-image: url("/src/assets/image/project-4.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio .projects .pro-5{
+    background-image: url("/src/assets/image/project-5.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio .projects .pro-6{
+    background-image: url("/src/assets/image/project-6.png");
+    background-size: cover;
+    background-position: center;
+}
+
+
+@media screen and (max-width:992px){
+    .portfolio{
+        padding: 15px;
+        margin: 20px 0;
+    }
+    .portfolio h1{
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .portfolio h3{
+        font-size: 20px;
+    }
+    .portfolio .projects .project{
+        width: 260px;
+        height: 130px;
+    }
+    .portfolio .projects .bgColor{
+        padding: 20px;
+    }
+    .portfolio .projects .bgColor h2{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .portfolio .projects .bgColor button{
+        padding: 0;
+        margin: 15px;
+        width: 30px;
+        height: 30px;
+        font-weight: 400;
+    }
+}

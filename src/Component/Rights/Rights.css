@@ -1,0 +1,48 @@
+.copyRight{
+    padding: 15px 70px;
+    border-top: 1px solid #768A96;
+    color: #29353C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    background-image: url("/src/assets/image/background1.png");
+    background-size: cover;
+}
+
+.copyRight p{
+    font-weight: 500;
+}
+
+.copyRight .devBy , .copyRight .followMe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.copyRight img{
+    width: 100px;
+    height: 50px;
+    border-radius: 8px;
+}
+
+.copyRight .socialMedia{
+    font-size: 28px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.copyRight h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+@media screen and (max-width:992px){
+    .copyRight{
+        padding: 15px;
+        margin: 20px 0 0;
+        flex-direction: column;
+    }
+}

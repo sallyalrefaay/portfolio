@@ -1,0 +1,82 @@
+.educationCourses{
+    background-image: url("/src/assets/image/bg4.jpg");
+    background-size: cover;
+    padding: 50px 70px;
+}
+.educationCourses h1{
+    font-size: 55px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #29353C;
+}
+.educationCourses .container2{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 30px;
+    color: #29353C;
+}
+.educationCourses .container2 h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+.educationCourses .container2 h3{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+.educationCourses .container2 p{
+    font-size: 20px;
+}
+.educationCourses .container2 .educationSection{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+
+.educationCourses .container2 .coursesSection{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.educationCourses .container2 .card , .educationCourses .container2 .card-2{
+    padding: 30px;
+    border-radius: 16px;
+    background-color: #c9c9c9;
+    box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.educationCourses .container2 .card-2{
+    width: 40%;
+}
+
+@media screen and (max-width:992px) {
+    .educationCourses{
+        padding: 15px;
+        margin: 20px 0;
+    }
+    .educationCourses .container2 .card{
+        padding: 10px;
+    }
+    .educationCourses h1{
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .educationCourses .container2 h2{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .educationCourses .container2 h3{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .educationCourses .container2 p{
+        font-size: 16px;
+    }
+}

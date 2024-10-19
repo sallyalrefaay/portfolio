@@ -1,0 +1,89 @@
+.background{
+    width: 98.96vw;
+    height: 100vh;
+    padding: 150px 0;
+    background-image: url("/src/assets/image/bg2.jpg");
+    background-size: cover;
+}
+
+.container-1 {
+    width: 98.96vw;
+    padding: 30px 100px;
+}
+.container-1 .desc{
+    width: 40%;
+    padding: 30px 0;
+    color: #29353C;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.container-1 .desc.visible {
+    opacity: 1;
+}
+
+.container-1 .desc h1{
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.container-1 .desc h1 span{
+    color: #768A96;
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.container-1 .desc p{
+    margin: 30px 0;
+    line-height: 27px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.container-1 .desc button{
+    padding: 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+@media screen and (max-width:992px) {
+    .background{
+        padding: 70px 0;
+    }
+    .container-1{
+        flex-direction: column;
+        padding: 20px 15px;
+        text-align: center;
+        gap: 20px;
+    }
+    .container-1 .desc{
+        padding: 0;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .container-1 .desc h1{
+        font-size: 28px;
+        font-weight: 500;
+    }
+    .container-1 .desc h1 span{
+        color: #768A96;
+        font-size: 24px;
+        font-weight: 600;
+    }
+    
+    .container-1 .desc p{
+        margin: 10px 0;
+        line-height: 27px;
+        font-size: 16px;
+    }
+    .container-1 .personalimg{
+        width: 260px; 
+        height: 260px;
+    }
+    .container-1 .personalimg img{
+        width: 100%;
+    }
+}

@@ -1,0 +1,110 @@
+.contactBg{
+    background-image: url("/src/assets/image/bg6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.contact{
+    padding: 50px 70px;
+    color: #29353C;
+}
+.contact h1{
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.contact h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+.contactInfo{
+    padding: 0 70px;
+    margin: 50px 0 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    color: #29353C;
+}
+.contactInfo .contactNum{
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.contactInfo .contactNum .number{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.contactInfo .contactNum .number button{
+    width: 62px;
+    height: 50px;
+}
+.contactInfo .contactDesc{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contactInfo .contactDesc h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.contactInfo .contactDesc input , .contactInfo .contactDesc .message{
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 6px;
+    border: 1px solid #BEC0BF;
+    background-color: #f7f7f7;
+    opacity: 85%;
+    color: #29353C;
+    font-weight: 500;
+}
+.contactInfo .contactDesc .inputs{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.contactInfo .contactDesc .inputs input{
+    width: 50%;
+}
+.contactInfo .contactDesc  button{
+    padding: 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    width: max-content;
+}
+.contactInfo .contactDesc .message{
+    height: 150px;
+}
+
+@media screen and (max-width:992px){
+    .contact , .contactInfo{
+        padding: 15px;
+        margin: 20px 0;
+    }
+    .contact h1{
+        font-size: 27px;
+        font-weight: 500;
+    }
+    .contact h3{
+        font-size: 20px;
+    }
+    .contactInfo .contactDesc h2{
+        font-size: 22px;
+    }
+    .contactInfo .contactNum .number{
+        font-size: 16px;
+        font-weight: 400;
+        gap: 10px;
+    }
+}
