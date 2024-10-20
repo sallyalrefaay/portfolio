@@ -1,7 +1,7 @@
 .educationCourses{
-    background-image: url("/src/assets/image/bg4.jpg");
-    background-size: cover;
     padding: 50px 70px;
+    background-image: url("/public/assets/image/background1.png");
+    background-size: cover;
 }
 .educationCourses h1{
     font-size: 55px;
@@ -9,6 +9,7 @@
     margin-bottom: 40px;
     text-align: center;
     color: #29353C;
+    font-family: "KoHo", sans-serif;
 }
 .educationCourses .container2{
     display: flex;
@@ -45,6 +46,17 @@
     gap: 40px;
 }
 
+.bgCard{
+    width: 500px;
+    height: 300px;
+}
+
+.bgCard img{
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+}
+
 .educationCourses .container2 .card , .educationCourses .container2 .card-2{
     padding: 30px;
     border-radius: 16px;
@@ -54,12 +66,30 @@
 
 .educationCourses .container2 .card-2{
     width: 40%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.cardInfo{
+    width: 70%;
+}
+
+.bgCard-2{
+    width: 200px;
+    height: 200px;
+}
+
+.bgCard-2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
 }
 
 @media screen and (max-width:992px) {
     .educationCourses{
-        padding: 15px;
-        margin: 20px 0;
+        padding: 10px;
     }
     .educationCourses .container2 .card{
         padding: 10px;
@@ -67,16 +97,34 @@
     .educationCourses h1{
         font-size: 24px;
         font-weight: 500;
+        margin-bottom: 20px;
     }
     .educationCourses .container2 h2{
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 500;
     }
     .educationCourses .container2 h3{
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 400;
     }
     .educationCourses .container2 p{
         font-size: 16px;
+    }
+    .educationCourses .container2 .card{
+        width: 280px;
+    }
+    .educationCourses .container2 .card .bgCard{
+        width: 260px;
+        height: 140px;
+    }
+    .educationCourses .container2 .card-2{
+        width: 280px;
+        padding: 10px;
+    }
+    .educationCourses .container2 .card-2 .bgCard-2{
+        display: none;
+    }
+    .cardInfo{
+        width: 100%;
     }
 }

@@ -1,15 +1,20 @@
+.bgHardSkiils{
+    background-image: url("/public/assets/image/bg4.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
 .hardSkills{
-    margin: 60px 0 0;
-    padding: 20px 0;
+    padding: 60px 0;
     font-size: 55px;
     font-weight: 700;
     text-align: center;
     opacity: 85%;
     color: #29353C;
+    font-family: "KoHo", sans-serif;
 }
 .skills{
-    padding: 40px 70px;
-    margin-bottom: 40px;
+    padding: 50px 70px;
     opacity: 85%;
     display: flex;
     align-items: center;
@@ -25,7 +30,6 @@
     width: 85%;
     height: 85%;
     border-radius: 35%;
-    opacity: 70%;
 }
 
 .skills div img:hover{
@@ -38,20 +42,15 @@
     .hardSkills{
         font-size: 27px;
         font-weight: 500;
-        margin: 20px 0;
+        padding: 15px 0;
     }
     .skills{
-        padding: 10px;
-        margin: 20px 0;
-        height: 130px;
+        padding: 0 10px;
+        height: 120px;
         overflow-x: scroll;
     }
     .skills div{
-        min-width: 100px;
-        min-height: 100px;
-    }
-    .skills div{
-        width: 100px;
-        height: 100px;
+        min-width: 90px;
+        min-height: 90px;
     }
 }

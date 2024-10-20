@@ -33,7 +33,7 @@ color: #E6E6E6;
 .dark-mode .theme-toggle,
 .dark-mode .nav-links ,
 .dark-mode .about .information,
-.dark-mode .hardSkills,
+.dark-mode .educationCourses h1,
 .dark-mode .copyRight,
 .dark-mode .portfolio{
 color: #E6E6E6;
@@ -50,7 +50,7 @@ color: #E6E6E6;
     grid-gap: 10px;
     list-style: none;
     align-items: center;
-    background-image: url("/src/assets/image/background1.png");
+    background-image: url("/public/assets/image/background1.png");
     background-size: cover;
 }
 .nav-links {

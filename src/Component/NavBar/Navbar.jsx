@@ -24,7 +24,7 @@ document.body.classList.toggle('dark-mode');
 
 return (
 <nav className={`NavbarItems ${isDarkMode ? 'dark-mode' : ''}`}>
-    <img className="logo" src="/src/assets/image/logo1.png" alt="" />
+    <img className="logo" src="/portfolio/assets/image/logo1.png" alt="" />
     <div className={`menu-icons ${isDarkMode ? "dark-mode" : ""}`} onClick={navMenu}>
         <i className={`fas ${mobileMenuActive ? "fa-times" : "fa-bars"}`}></i>
     </div>
@@ -36,7 +36,7 @@ return (
     </ul>
     <div onClick={toggleTheme}
     className={` ${isDarkMode ? 'dark-mode' : ''}`}>
-    <img src={`src/assets/image/${isDarkMode ? 'sun_fill.svg' : 'Moon_fill.svg'}`}
+    <img src={`public/assets/image/${isDarkMode ? 'sun_fill.svg' : 'Moon_fill.svg'}`}
         alt="Theme Toggle"/>
     </div>
 </nav>
