@@ -47,7 +47,7 @@
 }
 
 .bgCard{
-    width: 500px;
+    width: 400px;
     height: 300px;
 }
 
@@ -55,6 +55,10 @@
     width: 100%;
     height: 100%;
     border-radius: 12px;
+}
+
+.educationCourses .container2 .card {
+    width: 460px;
 }
 
 .educationCourses .container2 .card , .educationCourses .container2 .card-2{
@@ -68,7 +72,6 @@
     width: 40%;
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
     gap: 10px;
 }
 

@@ -11,7 +11,7 @@ return (
         <h1>About Me</h1>
         <h3><span>I am Sally Alrefaay </span>Web designer and Frontend Developer</h3>
         <p>I design and develop moderen websites and web applecations, web services and online stores. My passion is to become a professinal web developer.</p>
-        <div><button><a download href="/assets/resume.pdf">Download Cv <i className="fas fa-download"></i></a></button></div>
+        <div><button><a download href="/portfolio/assets/resume.pdf">Download Cv <i className="fas fa-download"></i></a></button></div>
         <div className="socialMedia">
             <a href="https://www.linkedin.com/in/sally-alrefaay-b15648248" target="_blank"><i className="fab fa-linkedin"></i></a>
             <a href="https://github.com/sallyalrefaay/" target="_blank"><i className="fab fa-github"></i></a>

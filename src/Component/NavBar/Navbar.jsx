@@ -36,7 +36,7 @@ return (
     </ul>
     <div onClick={toggleTheme}
     className={` ${isDarkMode ? 'dark-mode' : ''}`}>
-    <img src={`public/assets/image/${isDarkMode ? 'sun_fill.svg' : 'Moon_fill.svg'}`}
+    <img src={`/portfolio/assets/image/${isDarkMode ? 'sun_fill.svg' : 'Moon_fill.svg'}`}
         alt="Theme Toggle"/>
     </div>
 </nav>
