@@ -47,8 +47,9 @@
 }
 
 .bgCard{
-    width: 400px;
-    height: 300px;
+    width: 380px;
+    height: 220px;
+    margin-bottom: 20px;
 }
 
 .bgCard img{
@@ -58,7 +59,7 @@
 }
 
 .educationCourses .container2 .card {
-    width: 460px;
+    width: 440px;
 }
 
 .educationCourses .container2 .card , .educationCourses .container2 .card-2{
@@ -69,7 +70,7 @@
 }
 
 .educationCourses .container2 .card-2{
-    width: 35%;
+    width: 680px;
     display: flex;
     align-items: center;
     gap: 10px;
