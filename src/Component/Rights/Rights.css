@@ -5,9 +5,12 @@
     justify-content: space-between;
     align-items: center;
     gap: 10px;
+    box-shadow: 1px 1px 8px #AAC7D8;
+    font-family: "Poppins", sans-serif;
 }
 
 .copyRight p{
+    font-size: 18px;
     font-weight: 500;
 }
 
@@ -28,7 +31,17 @@
     font-size: 28px;
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 15px;
+}
+
+.copyRight .socialMedia a{
+    padding: 2px;
+    width: 40px;
+    height: 40px;
+}
+
+.copyRight .socialMedia a:hover{
+    font-size: 40px;
 }
 
 .copyRight h4{

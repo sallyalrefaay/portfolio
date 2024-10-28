@@ -1,0 +1,79 @@
+.projectsInformation{
+    padding: 180px 70px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.projectsInformation .project{
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    border-bottom: 2px dashed #AAC7D8;
+    font-family: "Poppins", sans-serif;
+}
+
+.projectsInformation .project .ProImg{
+    max-width: 800px;
+}
+
+.projectsInformation .project .ProImg img{
+    width: 100%;
+    border-radius: 16px;
+}
+
+.projectsInformation .details{
+    max-width: 550px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.projectsInformation .details h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.projectsInformation .details p, .projectsInformation .details a{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.projectsInformation .details button{
+    margin: 15px;
+    padding: 15px;
+    width: 75px;
+    height: 55px;
+    border-radius: 20%;
+    font-weight: 700;
+    border: 2px solid ;
+    background: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+
+@media screen and (max-width:992px){
+    .projectsInformation{
+        margin-top: 100px;
+        padding: 20px;
+        gap: 20px;
+    }
+    .projectsInformation .details h2{
+        font-size: 22px;
+        font-weight: 500;
+    }
+    .projectsInformation .details p, .projectsInformation .details a{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .projectsInformation .details button{
+        padding: 10px;
+        margin: 15px;
+        width: 40px;
+        height: 40px;
+        font-weight: 400;
+    }
+}

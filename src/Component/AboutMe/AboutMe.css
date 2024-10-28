@@ -13,10 +13,8 @@
     position: relative;
 }
 
-.about .pic .center{
-    position: absolute;
-    top: 50%;
-    left: 50%;
+.about .pic .circle{
+    width: 400px;
 }
 
 .about .pic .skill{
@@ -90,6 +88,7 @@
     flex-direction: column;
     gap: 30px;
     color: #29353C;
+    font-family: "Poppins", sans-serif;
 }
 
 .about .information button{
@@ -132,28 +131,13 @@
     width: 250px;
 }
 
-.about .information .socialMedia{
-    font-size: 30px;
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-}
-
-.about .information .socialMedia a{
-    padding: 2px;
-    width: 40px;
-    height: 40px;
-}
-
-.about .information .socialMedia a:hover{
-    font-size: 40px;
-}
-
 @media screen and (max-width:992px) {
     .about{
         padding: 15px;
     }
-    
+    .about .pic{
+        display: none;
+    }
     .about .information{
         width: 100%;
         gap: 10px;

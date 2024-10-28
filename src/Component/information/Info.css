@@ -14,6 +14,7 @@
     color: #29353C;
     opacity: 0;
     transition: opacity 0.5s ease;
+    font-family: "Poppins", sans-serif;
 }
 
 .container-1 .desc.visible {

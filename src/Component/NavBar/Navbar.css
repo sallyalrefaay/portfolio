@@ -13,6 +13,7 @@
     transform: translate(-50%);
     box-shadow: 1px 1px 8px #AAC7D8;
     z-index: 9999;
+    font-family: "Poppins", sans-serif;
 }
 
 .NavbarItems .logo{
@@ -38,6 +39,8 @@ color: #E6E6E6;
 .dark-mode .educationCourses .container2 p,
 .dark-mode .educationCourses h1,
 .dark-mode .copyRight,
+.dark-mode .projectsInformation .details a,
+.dark-mode .projectsInformation .details button,
 .dark-mode .portfolio{
 color: #E6E6E6;
 }

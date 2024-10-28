@@ -1,5 +1,5 @@
 import "./Portfolio.css"
-
+import { Link} from 'react-router-dom'
 export default function Portfolio() {
     return (
     <>
@@ -13,61 +13,61 @@ export default function Portfolio() {
             <div className="project pro-1">
                 <div className="bgColor">
                     <h2>K2skiing</h2>
-                    <p>HTML5-CSS</p>
+                    <Link to= '/Project'>
                     <div>
-                        <a href="https://github.com/sallyalrefaay/K2skiing.git" target="_blank"><button><i className="fas fa-plus"></i></button></a>
-                        <a href="https://sallyalrefaay.github.io/K2skiing/" target="_blank"><button><i className="fas fa-eye"></i></button></a>
+                        <span>More Details</span><button><i className="fa-solid fa-up-right-from-square"></i></button>
                     </div>
+                    </Link>
                 </div>
             </div>
             <div className="project pro-2">
                 <div className="bgColor">
                     <h2>Flora</h2>
-                    <p>HTML5-CSS</p>
+                    <Link to= '/Project'>
                     <div>
-                        <a href="https://github.com/sallyalrefaay/Flora.git" target="_blank"><button><i className="fas fa-plus"></i></button></a>
-                        <a href="https://sallyalrefaay.github.io/Flora/" target="_blank"><button><i className="fas fa-eye"></i></button></a>
+                        <span>More Details</span><button><i className="fa-solid fa-up-right-from-square"></i></button>
                     </div>
+                    </Link>
                 </div>
             </div>
             <div className="project pro-3">
                 <div className="bgColor">
                     <h2>Salla Store</h2>
-                    <p>HTML5-CSS</p>
+                    <Link to= '/Project'>
                     <div>
-                        <a href="https://github.com/sallyalrefaay/Salla-store.git" target="_blank"><button><i className="fas fa-plus"></i></button></a>
-                        <a href="https://sallyalrefaay.github.io/Salla-store/" target="_blank"><button><i className="fas fa-eye"></i></button></a>
+                        <span>More Details</span><button><i className="fa-solid fa-up-right-from-square"></i></button>
                     </div>
+                    </Link>
                 </div>
             </div>
             <div className="project pro-4">
                 <div className="bgColor">
                     <h2>Edujar</h2>
-                    <p>HTML5-CSS-React</p>
+                    <Link to= '/Project'>
                     <div>
-                        <a href="https://github.com/sallyalrefaay/Edujar.git" target="_blank"><button><i className="fas fa-plus"></i></button></a>
-                        <a href="https://sallyalrefaay.github.io/Edujar/" target="_blank"><button><i className="fas fa-eye"></i></button></a>
+                        <span>More Details</span><button><i className="fa-solid fa-up-right-from-square"></i></button>
                     </div>
+                    </Link>
                 </div>
             </div>
             <div className="project pro-5">
                 <div className="bgColor">
                     <h2>DashStack</h2>
-                    <p>HTML5-CSS-React-Tailwind</p>
+                    <Link to= '/Project'>
                     <div>
-                        <a href="https://github.com/sallyalrefaay/DashStack.git" target="_blank"><button><i className="fas fa-plus"></i></button></a>
-                        <a href="https://sallyalrefaay.github.io/DashStack/" target="_blank"><button><i className="fas fa-eye"></i></button></a>
+                        <span>More Details</span><button><i className="fa-solid fa-up-right-from-square"></i></button>
                     </div>
+                    </Link>
                 </div>
             </div>
             <div className="project pro-6">
                 <div className="bgColor">
                     <h2>Home Decoration</h2>
-                    <p>HTML5-CSS-JS-Bootstrabs</p>
+                    <Link to= '/Project'>
                     <div>
-                        <a href="https://github.com/sallyalrefaay/Home-Decoration.git" target="_blank"><button><i className="fas fa-plus"></i></button></a>
-                        <a href="https://sallyalrefaay.github.io/Home-Decoration/" target="_blank"><button><i className="fas fa-eye"></i></button></a>
+                        <span>More Details</span><button><i className="fa-solid fa-up-right-from-square"></i></button>
                     </div>
+                    </Link>
                 </div>
             </div>
         </div>

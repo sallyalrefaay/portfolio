@@ -6,10 +6,12 @@
 }
 
 .portfolio .portfolioNav{
+    margin-bottom: 40px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     flex-wrap: wrap;
+    font-family: "Poppins", sans-serif;
 }
 
 .portfolio h1{
@@ -61,6 +63,7 @@
     border-radius: 12px;
     background-color: #29353C;
     opacity: 0;
+    font-family: "Poppins", sans-serif;
 }
 
 .portfolio .projects .bgColor h2{
@@ -70,7 +73,7 @@
     color: #fff;
 }
 
-.portfolio .projects .bgColor p{
+.portfolio .projects .bgColor span{
     font-size: 18px;
     font-weight: 500;
     color: #fff;

@@ -19,6 +19,7 @@
     flex-wrap: wrap;
     gap: 30px;
     color: #29353C;
+    font-family: "Poppins", sans-serif;
 }
 .educationCourses .container2 h2{
     font-size: 30px;
@@ -61,6 +62,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
+    font-family: "Poppins", sans-serif;
 }
 
 .contactMe .tryMe{
@@ -101,6 +103,8 @@
 .contactMe .telegram{
     font-size: 18px;
     font-weight: 500;
+    color: #FFFFFF;
+    font-weight: 600;
 }
 
 

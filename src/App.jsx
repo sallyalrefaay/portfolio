@@ -1,13 +1,13 @@
+import { Routes , Route } from 'react-router-dom';
 import Home from './Pages/Home';
 import Project from './Pages/Project';
 function App() {
   
   return (
-    
-    <div className="App">
-      <Home />
-      <Project />
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />}/>
+      <Route path="/Project" element={<Project />}/>
+    </Routes>
   );
   
 }
