@@ -1,13 +1,10 @@
 .copyRight{
     padding: 15px 70px;
-    border-top: 1px solid #768A96;
     color: #29353C;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 10px;
-    background-image: url("/public/assets/image/background1.png");
-    background-size: cover;
 }
 
 .copyRight p{

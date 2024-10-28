@@ -1,20 +1,89 @@
 .about{
-    padding: 50px 70px;
+    padding:70px;
+    margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 30px;
-    background-image: url("/public/assets/image/background1.png");
-    background-size: cover;
+    border-top: 4px dashed #AAC7D8;
 }
 .about .pic{
-    width: 450px;
+    max-width: 450px;
+    position: relative;
 }
-.about .pic img{
-    width: 100%;
-    height: 100%;
+
+.about .pic .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
 }
+
+.about .pic .skill{
+    width: 70px;
+    height: 70px;
+    border-radius: 40px;
+}
+
+.about .pic .skill:hover{
+    transform: rotate(360deg);
+    transition: 1.5s ease;
+}
+
+.about .pic .html{
+    position: absolute;
+    top: 42%;
+    left: 42%;
+}
+
+.about .pic .css{
+    position: absolute;
+    top: 16%;
+    left: 16%;
+}
+
+.about .pic .js{
+    position: absolute;
+    top: 68%;
+    left: 68%;
+}
+
+.about .pic .php{
+    position: absolute;
+    top: 25%;
+    left: 62%;
+}
+
+.about .pic .sql{
+    position: absolute;
+    top: 58%;
+    left: 21%;
+}
+
+.about .pic .bootstrap{
+    position: absolute;
+    top: 40%;
+    left: 12%;
+}
+
+.about .pic .tailwind{
+    position: absolute;
+    top: 45%;
+    left: 74%;
+}
+
+.about .pic .react{
+    position: absolute;
+    top: 73%;
+    left: 40%;
+}
+
+.about .pic .github{
+    position: absolute;
+    top: 13%;
+    left: 44%;
+}
+
 .about .information{
     width: 40%;
     display: flex;
@@ -37,21 +106,32 @@
     font-weight: 700;
     font-family: "KoHo", sans-serif;
 }
-.about .information h3{
-    font-size: 25px;
-    font-weight: 600;
-}
-
-.about .information h3 span{
-    font-size: 30px;
-    font-weight: 600;
-    color: #768A96;
-}
 
 .about .information p{
     line-height: 27px;
     font-size: 20px;
 }
+
+.information .range{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.information .range div{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "KoHo", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.information .range div input{
+    width: 250px;
+}
+
 .about .information .socialMedia{
     font-size: 30px;
     display: flex;
@@ -73,9 +153,7 @@
     .about{
         padding: 15px;
     }
-    .pic{
-        display: none;
-    }
+    
     .about .information{
         width: 100%;
         gap: 10px;

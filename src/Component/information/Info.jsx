@@ -13,14 +13,15 @@ const Info = () => {
   }, []);
 
   return (
-    <div className="background" id="home">
+    <div id="home">
     <div className="container-1">
       <div className={`desc ${isVisible ? 'visible' : ''}`}>
           <h1><span>HEY!</span> I’m Sally, Frontend Developer</h1>
           <p>I create professional web application for business, companies, skilled in leadership, seeking to leverage solid development skills with focus on collaboration, communication and passion.</p>
-          <button>
-            <a className="ContactMe" href="https://t.me/SallyAlrefaay" target="_blank">Contact Me <i className="fab fa-telegram"></i></a>
-          </button>
+          <div><button><a download href="/portfolio/assets/resume.pdf">Download Cv <i className="fas fa-download"></i></a></button></div>
+      </div>
+      <div className="myImg">
+        <img src="/portfolio/assets/image/Home_art.png" alt="" />
       </div>
   </div>
   </div>

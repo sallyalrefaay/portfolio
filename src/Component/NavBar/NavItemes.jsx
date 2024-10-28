@@ -11,17 +11,12 @@ export const NavItemes = [
     cName: 'nav-links',
 },
 {
-    title: 'Skills',
-    id: 'skills',
-    cName: 'nav-links',
-},
-{
     title: 'Education',
     id: 'education',
     cName: 'nav-links',
 },
 {
-    title: 'Portfolio',
+    title: 'Projects',
     id: 'portfolio',
     cName: 'nav-links',
 },

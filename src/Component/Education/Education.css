@@ -1,7 +1,8 @@
 .educationCourses{
-    padding: 50px 70px;
-    background-image: url("/public/assets/image/background1.png");
-    background-size: cover;
+    padding: 70px;
+    background-image: url("/public/assets/image/back-g.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .educationCourses h1{
     font-size: 55px;
@@ -13,8 +14,8 @@
 }
 .educationCourses .container2{
     display: flex;
-    justify-content: space-between;
-    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
     flex-wrap: wrap;
     gap: 30px;
     color: #29353C;
@@ -31,65 +32,78 @@
 .educationCourses .container2 p{
     font-size: 20px;
 }
-.educationCourses .container2 .educationSection{
+.educationCourses .container2 .educationSection , .educationCourses .container2 .coursesSection{
+    padding-left: 20px;
+    border-left: 4px dashed #AAC7D8;
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap;
-    gap: 30px;
-}
-
-
-.educationCourses .container2 .coursesSection{
-    display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
     flex-wrap: wrap;
     gap: 40px;
 }
 
-.bgCard{
-    width: 380px;
-    height: 220px;
-    margin-bottom: 20px;
-}
-
-.bgCard img{
-    width: 100%;
-    height: 100%;
-    border-radius: 12px;
-}
 
 .educationCourses .container2 .card {
-    width: 440px;
-}
-
-.educationCourses .container2 .card , .educationCourses .container2 .card-2{
-    padding: 30px;
-    border-radius: 16px;
-    background-color: #c9c9c9;
-    box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.5);
+    max-width: 500px;
 }
 
 .educationCourses .container2 .card-2{
-    width: 680px;
+    max-width: 680px;
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.cardInfo{
-    width: 70%;
+.contactMe{
+    padding: 0 70px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 
-.bgCard-2{
-    width: 200px;
-    height: 200px;
+.contactMe .tryMe{
+    width: 1000px;
+    height: 300px;
+    border-radius: 36px;
+    background-color: #AAC7D8;
+    rotate: 3deg;
 }
 
-.bgCard-2 img{
-    width: 100%;
-    height: 100%;
-    border-radius: 12px;
+.contactMe .tryMe2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 100px 50px;
+    width: 1000px;
+    height: 300px;
+    border-radius: 36px;
+    color: #FFFFFF;
+    background-color: #3d474e;
+    background-image: url("/public/assets/image/Lines.svg");
+    background-size: cover;
+    position: absolute;
+    top: 0;
 }
+
+.contactMe .tryMe2 h2{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.contactMe .tryMe2 p{
+    font-weight: 500;
+}
+
+.contactMe .telegram{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
 
 @media screen and (max-width:992px) {
     .educationCourses{
@@ -117,18 +131,26 @@
     .educationCourses .container2 .card{
         width: 280px;
     }
-    .educationCourses .container2 .card .bgCard{
-        width: 260px;
-        height: 140px;
-    }
     .educationCourses .container2 .card-2{
         width: 280px;
         padding: 10px;
     }
-    .educationCourses .container2 .card-2 .bgCard-2{
-        display: none;
-    }
     .cardInfo{
         width: 100%;
+    }
+    .contactMe{
+        padding: 10px;
+    }
+    .contactMe .tryMe {
+        display: none;
+    }
+    .contactMe .tryMe2{
+        padding: 15px;
+        position: relative;
+        height: max-content;
+    }
+    .contactMe .tryMe2 h2{
+        font-size: 22px;
+        font-weight: 500;
     }
 }

@@ -3,17 +3,16 @@
     justify-content: space-between;
     align-items: center;
     background-color: #c9c9c9;
-    opacity: 80%;
+    opacity: 90%;
     width: 100%;
-    height: 80px;
+    height: 100px;
     padding: 0 70px;
     position: fixed;
     top: 0;
     left: 50%;
     transform: translate(-50%);
+    box-shadow: 1px 1px 8px #AAC7D8;
     z-index: 9999;
-    background-image: url("/src/assets/image/background1.png");
-    background-size: cover;
 }
 
 .NavbarItems .logo{
@@ -32,7 +31,11 @@ color: #E6E6E6;
 .dark-mode .navbar-menu,
 .dark-mode .theme-toggle,
 .dark-mode .nav-links ,
+.dark-mode .container-1 .desc,
 .dark-mode .about .information,
+.dark-mode .educationCourses .container2 h2,
+.dark-mode .educationCourses .container2 h3,
+.dark-mode .educationCourses .container2 p,
 .dark-mode .educationCourses h1,
 .dark-mode .copyRight,
 .dark-mode .portfolio{
@@ -50,8 +53,6 @@ color: #E6E6E6;
     grid-gap: 10px;
     list-style: none;
     align-items: center;
-    background-image: url("/public/assets/image/background1.png");
-    background-size: cover;
 }
 .nav-links {
     text-decoration: none;

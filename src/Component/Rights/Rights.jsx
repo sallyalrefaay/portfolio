@@ -3,7 +3,7 @@ export default function Rights() {
     return (
     <div className="copyRight">
         <div className="devBy">
-            <p>Develpoment by Sally</p>
+            <p>Develpoment by:</p>
             <img src="/portfolio/assets/image/logo1.png" alt="" />
         </div>
         <p>@ 2024. All Rights Reserved</p>

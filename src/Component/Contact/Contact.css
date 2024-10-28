@@ -61,7 +61,8 @@
     height: 40px;
     padding-left: 10px;
     border-radius: 6px;
-    border: 1px solid #BEC0BF;
+    outline: none;
+    border: 2px solid #BEC0BF;
     background-color: #f7f7f7;
     opacity: 85%;
     color: #29353C;

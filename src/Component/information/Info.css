@@ -1,14 +1,12 @@
-.background{
-    width: 99.15vw;
-    height: 100vh;
-    padding: 150px 0;
-    background-image: url("/public/assets/image/bg2.jpg");
-    background-size: cover;
-}
-
 .container-1 {
     width: 98.96vw;
+    height: 100vh;
     padding: 30px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("/public/assets/image/Lines.svg");
+    background-size: cover;
 }
 .container-1 .desc{
     width: 40%;
@@ -50,6 +48,26 @@
     transition: all 0.2s ease-in-out;
 }
 
+.container-1 .myImg{
+    width: 450px;
+    height: 450px;
+    background-color: #768A9690;
+    border-radius: 50%;
+    position: relative;
+}
+
+.container-1 .myImg img{
+    width: 550px;
+    height: 500px;
+    position: absolute;
+    bottom: -20px;
+}
+
+.container-1 .myImg img:hover{
+    transform: rotate(10deg);
+    transition: 0.5s ease-in-out;
+}
+
 @media screen and (max-width:992px) {
     .background{
         padding: 70px 0;
@@ -57,8 +75,8 @@
     .container-1{
         flex-direction: column;
         padding: 20px 15px;
-        text-align: center;
         gap: 20px;
+        height: max-content;
     }
     .container-1 .desc{
         padding: 0;
@@ -67,7 +85,7 @@
     }
     .container-1 .desc h1{
         margin-top: 90px;
-        font-size: 28px;
+        font-size: 24px;
         font-weight: 500;
     }
     .container-1 .desc h1 span{
@@ -77,16 +95,18 @@
     }
     
     .container-1 .desc p{
-        margin: 40px 0;
+        margin: 20px 0;
         line-height: 27px;
         font-size: 18px;
-        font-weight: 600;
+        font-weight: 500;
     }
-    .container-1 .personalimg{
+    .container-1 .myImg{
         width: 260px; 
         height: 260px;
     }
-    .container-1 .personalimg img{
-        width: 100%;
+    .container-1 .myImg img{
+        width: 260px;
+        height: 260px;
+        position: relative;
     }
 }

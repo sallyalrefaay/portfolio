@@ -1,7 +1,6 @@
 import AboutMe from "../Component/AboutMe/AboutMe";
 import Navbar from "../Component/NavBar/Navbar";
 import Info from "../Component/information/Info";
-import Skills from "../Component/Skills/Skills";
 import Education from "../Component/Education/Education";
 import Portfolio from "../Component/Portfolio/Portfolio";
 import Contact from "../Component/Contact/Contact";
@@ -13,7 +12,6 @@ export default function Home() {
     <Navbar></Navbar>
     <Info />
     <AboutMe />
-    <Skills />
     <Education />
     <Portfolio />
     <Contact />
