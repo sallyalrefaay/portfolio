@@ -64,10 +64,14 @@
     background-color: #29353C;
     opacity: 0;
     font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 .portfolio .projects .bgColor h2{
-    margin-top: 60px;
     font-size: 30px;
     font-weight: 700;
     color: #fff;
