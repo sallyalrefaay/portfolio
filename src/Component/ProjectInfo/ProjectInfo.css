@@ -1,7 +1,8 @@
 .projectsInformation{
-    padding: 180px 70px 30px;
+    padding: 180px 70px 0;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 40px;
 }
 
@@ -17,7 +18,7 @@
 }
 
 .projectsInformation .project .ProImg{
-    max-width: 800px;
+    max-width: 600px;
 }
 
 .projectsInformation .project .ProImg img{
@@ -32,26 +33,28 @@
     gap: 15px;
 }
 .projectsInformation .details h2{
-    font-size: 30px;
-    font-weight: 700;
+    font-size: 28px;
+    font-weight: 600;
 }
 
 .projectsInformation .details p, .projectsInformation .details a{
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 500;
+    color: #29353C;
 }
 
 .projectsInformation .details button{
     margin: 15px;
     padding: 15px;
-    width: 75px;
-    height: 55px;
+    width: 65px;
+    height: 45px;
     border-radius: 20%;
     font-weight: 700;
     border: 2px solid ;
     background: none;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
+    color: #29353C;
 }
 
 
