@@ -20,27 +20,83 @@ return (
         <h1>About Me</h1>
         <p>I design and develop moderen websites and web applecations, web services and online stores. My passion is to become a professinal web developer.</p>
         <div className="range">
-            <div>
-                <label htmlFor="html">HTML5</label>
-                <input type="range" id="html" value={95} min={0} max={100}/>
-                <label htmlFor="css">CSS</label>
-                <input type="range" id="css" value={90} min={0} max={100}/>
-                <label htmlFor="js">JavaScript</label>
-                <input type="range" id="js" value={85} min={0} max={100}/>
-                <label htmlFor="bootsrab">Bootsrabs</label>
-                <input type="range" id="bootstrab" value={80} min={0} max={100}/>
-                <label htmlFor="tailwind">Tailwind</label>
-                <input type="range" id="tailwind" value={80} min={0} max={100}/>
+            <div className="allRanges">
+                <div className="rangeNum95 rangeNumbers">
+                    <label htmlFor="html">HTML5</label>
+                    <input type="range" id="html" value={95} min={0} max={100}/>
+                    <div className="percent">
+                        <div className="rectangle">95%</div>
+                        <div className="triangle"></div>
+                    </div>
+                </div>
+                <div className="rangeNum90 rangeNumbers">
+                    <label htmlFor="css">CSS</label>
+                    <input type="range" id="css" value={90} min={0} max={100}/>
+                    <div className="percent">
+                        <div className="rectangle">90%</div>
+                        <div className="triangle"></div>
+                    </div>
+                </div>
+                <div className="rangeNum85 rangeNumbers">
+                    <label htmlFor="js">JavaScript</label>
+                    <input type="range" id="js" value={85} min={0} max={100}/>
+                    <div className="percent">
+                        <div className="rectangle">85%</div>
+                        <div className="triangle"></div>
+                    </div>
+                </div>
             </div>
-            <div>
-                <label htmlFor="react">React</label>
-                <input type="range" id="react" value={80} min={0} max={100}/>
-                <label htmlFor="php">PHP</label>
-                <input type="range" id="php" value={70} min={0} max={100}/>
-                <label htmlFor="sql">SQL</label>
-                <input type="range" id="sql" value={70} min={0} max={100}/>
-                <label htmlFor="github">GitHub</label>
-                <input type="range" id="github" value={90} min={0} max={100}/>
+            <div className="allRanges">
+            <div className="rangeNum85 rangeNumbers">
+                    <label htmlFor="bootsrab">Bootstrabs</label>
+                    <input type="range" id="bootstrab" value={85} min={0} max={100}/>
+                    <div className="percent">
+                        <div className="rectangle">85%</div>
+                        <div className="triangle"></div>
+                    </div>
+                </div>
+                <div className="rangeNum85 rangeNumbers">
+                    <label htmlFor="tailwind">Tailwind</label>
+                    <input type="range" id="tailwind" value={85} min={0} max={100}/>
+                    <div className="percent">
+                        <div className="rectangle">85%</div>
+                        <div className="triangle"></div>
+                    </div>
+                </div>
+                <div className="rangeNum80 rangeNumbers">
+                    <label htmlFor="react">React</label>
+                    <input type="range" id="react" value={80} min={0} max={100}/>
+                    <div className="percent">
+                        <div className="rectangle">80%</div>
+                        <div className="triangle"></div>
+                    </div>
+                </div>
+            </div>
+            <div className="allRanges">
+                <div className="rangeNum70 rangeNumbers">
+                    <label htmlFor="php">PHP</label>
+                    <input type="range" id="php" value={70} min={0} max={100}/>
+                    <div className="percent">
+                        <div className="rectangle">70%</div>
+                        <div className="triangle"></div>
+                    </div>
+                </div>
+                <div className="rangeNum70 rangeNumbers">
+                    <label htmlFor="sql">SQL</label>
+                    <input type="range" id="sql" value={70} min={0} max={100}/>
+                    <div className="percent">
+                        <div className="rectangle">70%</div>
+                        <div className="triangle"></div>
+                    </div>
+                </div>
+                <div className="rangeNum90 rangeNumbers">
+                    <label htmlFor="github">GitHub</label>
+                    <input type="range" id="github" value={90} min={0} max={100}/>
+                    <div className="percent">
+                        <div className="rectangle">90%</div>
+                        <div className="triangle"></div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

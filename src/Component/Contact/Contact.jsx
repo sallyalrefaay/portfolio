@@ -7,8 +7,8 @@ export default function Contact() {
     return (
     <div className="contactBg">
     <div className={`contact ${isDarkMode ? 'dark-mode' : ''}`} id="contact">
-        <h1 className= {`title ${isDarkMode ? 'text-white' : ''}`}>Contact</h1>
-        <h3>Let’s Discuss Your Project</h3>
+        <h3 className= {`title ${isDarkMode ? 'text-white' : ''}`}>Contact</h3>
+        <h1>Let’s Discuss Your <span>Project</span></h1>
     </div>
     <div className="contactInfo">
     <div className="contactNum">
@@ -35,7 +35,6 @@ export default function Contact() {
             </div>
         </div>
     <div className="contactDesc">
-            <h2>Let`s Talk About Your Next Project</h2>
             <div className="inputs">
                 <input type="text" placeholder="Full name"/>
                 <input type="email" placeholder="Your email"/>

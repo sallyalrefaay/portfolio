@@ -25,7 +25,7 @@ document.body.classList.toggle('dark-mode');
 
 return (
 <nav className={`NavbarItems ${isDarkMode ? 'dark-mode' : ''}`}>
-    <img className="logo" src="/portfolio/assets/image/logo1.png" alt="" />
+    <h1>Sally</h1>
     <div className={`menu-icons ${isDarkMode ? "dark-mode" : ""}`} onClick={navMenu}>
         <i className={`fas ${mobileMenuActive ? "fa-times" : "fa-bars"}`}></i>
     </div>

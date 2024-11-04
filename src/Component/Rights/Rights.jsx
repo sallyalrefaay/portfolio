@@ -2,13 +2,9 @@ import "./Rights.css"
 export default function Rights() {
     return (
     <div className="copyRight">
-        <div className="devBy">
-            <p>Develpoment by:</p>
-            <img src="/portfolio/assets/image/logo1.png" alt="" />
-        </div>
         <p>@ 2024. All Rights Reserved</p>
+        <p>Develpoment by Sally</p>
         <div className="followMe">
-            <h4>Follow Me On Social Media:</h4>
             <div className="socialMedia"> 
                 <a href="https://www.linkedin.com/in/sally-alrefaay-b15648248" target="_blank"><i className="fab fa-linkedin"></i></a>
                 <a href="https://github.com/sallyalrefaay/" target="_blank"><i className="fab fa-github"></i></a>

@@ -1,24 +1,18 @@
 .copyRight{
-    padding: 15px 70px;
+    margin: 0 70px;
+    padding: 15px 0;
     color: #29353C;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 10px;
-    box-shadow: 1px 1px 8px #AAC7D8;
+    border-top: 1px solid #BEC0BF;
     font-family: "Poppins", sans-serif;
 }
 
 .copyRight p{
     font-size: 18px;
     font-weight: 500;
-}
-
-.copyRight .devBy , .copyRight .followMe{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
 }
 
 .copyRight img{
@@ -51,7 +45,11 @@
 
 @media screen and (max-width:992px){
     .copyRight{
-        padding: 15px;
+        margin: 0 15px;
         flex-direction: column;
+    }
+    .copyRight p{
+        font-size: 16px;
+        font-weight: 400;
     }
 }

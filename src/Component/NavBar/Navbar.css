@@ -1,25 +1,23 @@
 .NavbarItems {
+    width: 100%;
+    padding: 20px 70px;
     display: flex;
+    background-color: #FFFFFF;
+    opacity: 90%;
     justify-content: space-between;
     align-items: center;
-    background-color: #c9c9c9;
-    opacity: 90%;
-    width: 100%;
-    height: 100px;
-    padding: 0 70px;
     position: fixed;
     top: 0;
-    left: 50%;
-    transform: translate(-50%);
-    box-shadow: 1px 1px 8px #AAC7D8;
     z-index: 9999;
     font-family: "Poppins", sans-serif;
 }
 
-.NavbarItems .logo{
-    width: 140px;
-    height: 70px;
-    border-radius: 8px;
+.NavbarItems img{
+    rotate: -10deg;
+}
+
+.NavbarItems h1{
+    cursor: pointer;
 }
 
 .dark-mode {
@@ -38,6 +36,9 @@ color: #E6E6E6;
 .dark-mode .educationCourses .container2 h3,
 .dark-mode .educationCourses .container2 p,
 .dark-mode .educationCourses h1,
+.dark-mode .contact,
+.dark-mode .contactNum,
+.dark-mode .contactInfo .contactNum .number a,
 .dark-mode .copyRight,
 .dark-mode .projectsInformation .details a,
 .dark-mode .projectsInformation .details button,
@@ -51,26 +52,20 @@ color: #E6E6E6;
 }
 
 .navbar-menu {
-    display: grid;
-    grid-template-columns: repeat(6,auto);
-    grid-gap: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
     list-style: none;
     align-items: center;
 }
 .nav-links {
     text-decoration: none;
     color: #29353C;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
-    padding: 10px 16px;
-    white-space: nowrap;
-}
-.nav-links i {
-    padding-right: 10px;
 }
 .nav-links:hover {
-    background-color: #44576D;
-    color: #DFEBF6;
+    color:#0C96E2;
     border-radius: 4px;
     transition: all 0.2s ease-in-out;
     cursor: pointer;
@@ -79,26 +74,21 @@ color: #E6E6E6;
 .nav-links-mobile {
     display: none;
 }
+
 button{
     padding: 20px;
     border-radius: 4px;
     font-size: 16px;
-    font-weight: 600;
     border: none;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
+    background-color: #0C96E2;
+    color: #FFFFFF;
 }
 
 a{
     text-decoration: none;
-    color: #29353C;
-}
-button:hover {
-    background-color: #44576D;
-    color: #DFEBF6;
-}
-button a:hover{
-    color: #DFEBF6;
+    color: #FFFFFF;
 }
 
 .menu-icons {

@@ -4,9 +4,9 @@ export default function Portfolio() {
     return (
     <>
     <div className="portfolio" id="portfolio">
-        <h1>Projects</h1>
+        <h3>Portfolio</h3>
         <div className="portfolioNav">
-            <h3>My Creative Works Latest Projects</h3>
+            <h1>My Creative Works Latest <span>Projects</span></h1>
             <button><a href="https://github.com/sallyalrefaay/" target="_blank">View GitHub <i className="fa-solid fa-up-right-from-square"></i></a></button>
         </div>
         <div className="projects">
@@ -15,7 +15,8 @@ export default function Portfolio() {
                     <h2>K2skiing</h2>
                     <Link to= '/Project'>
                     <div>
-                        <span>More Details</span><button><i className="fa-solid fa-up-right-from-square"></i></button>
+                        <button><i className="fa-solid fa-up-right-from-square"></i></button><span>More Details</span>
+                        <div><a href="https://sallyalrefaay.github.io/K2skiing/" target="_blank"><button><i className="fas fa-eye"></i></button>Project Demo</a></div>
                     </div>
                     </Link>
                 </div>
@@ -25,7 +26,8 @@ export default function Portfolio() {
                     <h2>Flora</h2>
                     <Link to= '/Project'>
                     <div>
-                        <span>More Details</span><button><i className="fa-solid fa-up-right-from-square"></i></button>
+                        <button><i className="fa-solid fa-up-right-from-square"></i></button> <span>More Details</span>
+                        <div><a href="https://sallyalrefaay.github.io/Flora/" target="_blank"><button><i className="fas fa-eye"></i></button>Project Demo</a></div>
                     </div>
                     </Link>
                 </div>
@@ -35,7 +37,8 @@ export default function Portfolio() {
                     <h2>Salla Store</h2>
                     <Link to= '/Project'>
                     <div>
-                        <span>More Details</span><button><i className="fa-solid fa-up-right-from-square"></i></button>
+                        <button><i className="fa-solid fa-up-right-from-square"></i></button><span>More Details</span>
+                        <div><a href="https://sallyalrefaay.github.io/Salla-store/" target="_blank"><button><i className="fas fa-eye"></i></button>Project Demo</a></div>
                     </div>
                     </Link>
                 </div>
@@ -45,7 +48,8 @@ export default function Portfolio() {
                     <h2>Edujar</h2>
                     <Link to= '/Project'>
                     <div>
-                        <span>More Details</span><button><i className="fa-solid fa-up-right-from-square"></i></button>
+                        <button><i className="fa-solid fa-up-right-from-square"></i></button><span>More Details</span>
+                        <div><a href="https://sallyalrefaay.github.io/Edujar/" target="_blank"><button><i className="fas fa-eye"></i></button>Project Demo</a></div>
                     </div>
                     </Link>
                 </div>
@@ -55,7 +59,8 @@ export default function Portfolio() {
                     <h2>DashStack</h2>
                     <Link to= '/Project'>
                     <div>
-                        <span>More Details</span><button><i className="fa-solid fa-up-right-from-square"></i></button>
+                        <button><i className="fa-solid fa-up-right-from-square"></i></button><span>More Details</span>
+                        <div><a href="https://sallyalrefaay.github.io/DashStack/" target="_blank"><button><i className="fas fa-eye"></i></button>Project Demo</a></div>
                     </div>
                     </Link>
                 </div>
@@ -65,7 +70,8 @@ export default function Portfolio() {
                     <h2>Home Decoration</h2>
                     <Link to= '/Project'>
                     <div>
-                        <span>More Details</span><button><i className="fa-solid fa-up-right-from-square"></i></button>
+                        <button><i className="fa-solid fa-up-right-from-square"></i></button><span>More Details</span>
+                        <div><a href="https://sallyalrefaay.github.io/Home-Decoration/" target="_blank"><button><i className="fas fa-eye"></i></button>Project Demo</a></div>
                     </div>
                     </Link>
                 </div>

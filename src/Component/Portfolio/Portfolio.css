@@ -15,14 +15,22 @@
 }
 
 .portfolio h1{
-    font-size: 48px;
-    font-weight: 700;
-    font-family: "KoHo", sans-serif;
+    max-width: 390px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.portfolio h1 span{
+    color: #0C96E2;
+    font-size: 40px;
+    font-weight: 600;
 }
 
 .portfolio h3{
-    font-size: 25px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 500;
+    color:#0C96E2;
+    font-family: "Poppins", sans-serif;
 }
 
 .portfolio .portfolioNav h3{
@@ -32,9 +40,8 @@
 }
 
 .portfolio .portfolioNav button{
-    padding: 20px;
+    padding: 15px 20px;
     border-radius: 8px;
-    font-weight: 600;
     border: none;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
@@ -49,8 +56,8 @@
 }
 
 .portfolio .projects .project{
-    width: 650px;
-    height: 350px;
+    width: 370px;
+    height: 220px;
     text-align: center;
     border-radius: 12px;
     box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.5);
@@ -59,26 +66,23 @@
 .portfolio .projects .bgColor{
     width: 100%;
     height: 100%;
-    padding: 45px;
+    padding: 15px;
     border-radius: 12px;
     background-color: #29353C;
     opacity: 0;
     font-family: "Poppins", sans-serif;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
 }
 
 .portfolio .projects .bgColor h2{
-    font-size: 30px;
-    font-weight: 700;
+    font-size: 25px;
+    font-weight: 500;
     color: #fff;
 }
 
 .portfolio .projects .bgColor span{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     color: #fff;
 }
@@ -148,8 +152,8 @@
     .portfolio{
         padding: 15px;
     }
-    .portfolio h1{
-        font-size: 22px;
+    .portfolio h1 , .portfolio h1 span{
+        font-size: 20px;
         font-weight: 500;
     }
     .portfolio h3{
