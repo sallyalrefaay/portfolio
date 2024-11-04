@@ -110,12 +110,11 @@
 }
 
 .information .range .allRanges{
-    width: 180px;
     font-size: 20px;
     font-weight: 500;
     display: flex;
-    flex-direction: column;
-    gap: 15px;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .information .range .allRanges input{
@@ -124,6 +123,9 @@
 
 .information .range .rangeNumbers{
     position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .information .range .rangeNumbers .rectangle{
@@ -151,31 +153,31 @@
 
 .information .range .rangeNum95 .percent{
     position: absolute;
-    left: 75%;
+    left: 81%;
     bottom: 50%;
 }
 
 .information .range .rangeNum90 .percent{
     position: absolute;
-    left: 71%;
+    left: 76%;
     bottom: 50%;
 }
 
 .information .range .rangeNum85 .percent{
     position: absolute;
-    left: 67%;
+    left: 72%;
     bottom: 50%;
 }
 
 .information .range .rangeNum80 .percent{
     position: absolute;
-    left: 62%;
+    left: 67%;
     bottom: 50%;
 }
 
 .information .range .rangeNum70 .percent{
     position: absolute;
-    left: 55%;
+    left: 58%;
     bottom: 50%;
 }
 

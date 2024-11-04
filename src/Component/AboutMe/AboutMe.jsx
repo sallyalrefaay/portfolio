@@ -45,8 +45,56 @@ return (
                         <div className="triangle"></div>
                     </div>
                 </div>
+                <div className="rangeNum85 rangeNumbers">
+                    <label htmlFor="bootsrab">Bootstrabs</label>
+                    <input type="range" id="bootstrab" value={85} min={0} max={100}/>
+                    <div className="percent">
+                        <div className="rectangle">85%</div>
+                        <div className="triangle"></div>
+                    </div>
+                </div>
+                <div className="rangeNum85 rangeNumbers">
+                    <label htmlFor="tailwind">Tailwind</label>
+                    <input type="range" id="tailwind" value={85} min={0} max={100}/>
+                    <div className="percent">
+                        <div className="rectangle">85%</div>
+                        <div className="triangle"></div>
+                    </div>
+                </div>
+                <div className="rangeNum80 rangeNumbers">
+                    <label htmlFor="react">React</label>
+                    <input type="range" id="react" value={80} min={0} max={100}/>
+                    <div className="percent">
+                        <div className="rectangle">80%</div>
+                        <div className="triangle"></div>
+                    </div>
+                </div>
+                <div className="rangeNum70 rangeNumbers">
+                    <label htmlFor="php">PHP</label>
+                    <input type="range" id="php" value={70} min={0} max={100}/>
+                    <div className="percent">
+                        <div className="rectangle">70%</div>
+                        <div className="triangle"></div>
+                    </div>
+                </div>
+                <div className="rangeNum70 rangeNumbers">
+                    <label htmlFor="sql">SQL</label>
+                    <input type="range" id="sql" value={70} min={0} max={100}/>
+                    <div className="percent">
+                        <div className="rectangle">70%</div>
+                        <div className="triangle"></div>
+                    </div>
+                </div>
+                <div className="rangeNum90 rangeNumbers">
+                    <label htmlFor="github">GitHub</label>
+                    <input type="range" id="github" value={90} min={0} max={100}/>
+                    <div className="percent">
+                        <div className="rectangle">90%</div>
+                        <div className="triangle"></div>
+                    </div>
+                </div>
             </div>
-            <div className="allRanges">
+            {/* <div className="allRanges">
             <div className="rangeNum85 rangeNumbers">
                     <label htmlFor="bootsrab">Bootstrabs</label>
                     <input type="range" id="bootstrab" value={85} min={0} max={100}/>
@@ -97,7 +145,7 @@ return (
                         <div className="triangle"></div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     </div>
 </div>
