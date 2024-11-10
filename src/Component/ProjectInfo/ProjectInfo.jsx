@@ -70,7 +70,7 @@ export default function ProjectInfo() {
                     <a href="https://sallyalrefaay.github.io/Home-Decoration/" target="_blank">Project Demo<button><i className="fas fa-eye"></i></button></a>
                 </div>
                 <div className='ProImg'>
-                    <img src="/portfolio/assets/image/project-1.png" alt="" />
+                    <img src="/portfolio/assets/image/project-6.png" alt="" />
                 </div>
             </div>
         </div>

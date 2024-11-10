@@ -48,6 +48,7 @@
     cursor: pointer;
     transition: all 0.2s ease-in-out;
     background-color: #FFFFFF;
+    box-shadow: 1px 1px 2px #29353C;
 }
 
 .container-1 .desc button a{
